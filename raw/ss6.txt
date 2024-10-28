@@ -1,0 +1,88 @@
+
+1. Expliqueu molt breument les característiques de DSL, ADSL i VDSL.
+
+2. Expliqueu molt breument les característiques de la Fibra òptica (incloent-hi FTTx i PON).
+
+3. Compareu molt breument (pot ser amb una taula) les tecnologies LAN Wi-Fi IEEE 802.11
+i Bluetooth.
+
+4. Per què calen protocols d’Inicialització i Autoconfiguració?
+
+5. Com pot DHCP (Dynamic Host Configuration Protocol) enviar datagrames de xarxa
+abans de conèixer la seva pròpia adreça?
+
+6. Expliqueu breument les característiques del protocol DHCP. Quin protocol de transport i
+ports (client i servidor) usa?
+
+7. Tenint en compte la capa sobre la qual viatgen els protocols, justifiqueu que les
+peticions/respostes de RARP no es poden reencaminar a altres xarxes, mentre que les de
+DHCP sí. (si us interessa, podeu trobar més informació buscant “BOOTP forwarding”,
+“DHCP/BOOTP forwarding”, “DHCP/BOOTP relay”, ...).
+
+8. A partir dels camps dels missatges que té DHCP, llisteu i expliqueu breument quina
+informació ens permet descobrir (demanar).
+
+9. Expliqueu breument el funcionament del protocol DHCP.
+
+10. Quin tipus d’adreça s’utilitza per enviar unes dades (datagrames) fins a un equip en una
+xarxa remota? Quin tipus d’identificador d’equip és més fàcil de recordar per als humans?
+Quina estructura s’ha seguit per definir noms per identificar equips a la xarxa?
+
+11. Què és el nom de domini d’un node? Com es forma el nom de domini d’un node? Poseu
+un o més exemples.
+
+12. Què és un domini primari? Llisteu-ne alguns.
+
+13. Què és el Servei de Noms de Domini (DNS)? Per a què s’utilitza? Quines característiques
+té?
+
+14. Què és una zona DNS? En quin equip es troba la informació relacionada a un equip?
+
+15. Els equips d’un domini, a qui realitzen inicialment les consultes DNS? Si l’equip consultat
+no té la informació, quins dos mecanismes hi ha definits per resoldre el problema?
+Expliqueu-los breument.
+
+16. Quin protocol de transport i quin port utilitza DNS?
+
+17. Expliqueu breument què és un Resource Record (RR, Registre de Recurs), i quants n’hi ha
+associats a cada equip. En quin(s) equip(s) s’emmagatzemen els RR? Expliqueu breument
+quins són els 5 components/camps que hi ha emmagatzemats per a cada atribut (Resource
+Record).
+
+18. Llisteu i descriviu breument alguns dels tipus d’atributs (objectes) que es poden tenir
+associats a un nom de domini. Quin és l’únic tipus d’atribut que permet adreces IP com a
+valor? Quin tipus de dades són els valors dels altres tipus d’atribut?
+
+19. Quantes adreces IP pot tenir associades 1 nom de domini? Com podem tenir més d’un
+nom de domini (p.e. empresa.cat, www.empresa.cat i correu.empresa.cat) associat a la
+mateixa adreça IP? Quantes entrades de tipus NS cal que hi hagi com a mínim en una
+zona? Quantes entrades tipus MX pot haver per cada nom de domini?
+
+20. Mireu els Resource Records associats al domini uab.es, que es troben a la transparència
+“Comandes per utilitzar el servei de DNS”. Expliqueu-ne breument el seu significat.
+
+21. Quins són els 2 tipus d’operació hi ha definit als missatges del protocol DNS?
+
+22. Quins camps cal enviar (dins el camp Question Section) per demanar informació d’un
+equip? Quins camps s’envien com a resposta (dins els camps Answer Section, Authority
+Section, Additional Information Section) amb la informació de l’equip? Quina relació hi
+veieu, tant a les peticions com a les respostes, amb els camps/components dels Resource
+Records?
+
+23. Expliqueu molt breument i de forma genèrica el mecanisme de Conversió d’adreces de
+xarxa (Network Address Translation, NAT), que permet usar adreces privades dins una
+xarxa local i alhora que tots els equips d’aquesta xarxa puguin accedir a Internet.
+
+24. Expliqueu breument els dos mecanismes de NAT.
+
+25. Quan s’usa NAT port-mapped a l’equip emissor, quines adreces i ports d’origen i
+destinació té un paquet quan surt de l’emissor? I quan es troba a internet?
+
+26. Quins avantatges i desavantatges té el NAT? I el NAT port-mapped?
+
+27. Com ha de ser de taula que ha d’incloure el router que fa el NAT port-mapped?
+
+28. Expliqueu molt breument què vol dir que NAT es pot usar a múltiples nivells. Què és el
+CG-NAT (Carrier Grade NAT)?
+
+29. Quines possibilitats hi ha per inicialitzar la taula de NAT? Quines s’usen normalment?

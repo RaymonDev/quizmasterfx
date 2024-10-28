@@ -1,0 +1,144 @@
+
+1. En quina capa de la torre de comunicacions TCP/IP es troben TCP i UDP? Quins serveis
+genèrics, dels explicat a la sessió 1, ofereix aquesta capa?
+
+2. Quina és la diferència principal entre TCP i UDP?
+
+3. Per què no és adequat usar IP directament per enviar informació no fiable entre
+aplicacions? Per a què s’utilitzen els números de port a UDP i a TCP? Quin tipus de dades
+són els Ports?
+
+4. Quants identificadors de port calen en una capçalera de transport TCP o UDP?
+
+5. En una connexió, cal que el port de l’equip emissor coincideixi amb el de l’equip
+receptor?
+
+6. Quines són les 3 categories de ports? Com es trien?
+
+7. Expliqueu breument com és el(s) servei(s) que ofereix UDP.
+
+8. Com s’anomenen les PDU d’UDP? Quins camps inclouen?
+
+9. Per què la capçalera UDP no incorpora un número de sèrie? Per què la capçalera UDP si
+incorpora (opcionalment) un checksum?
+
+10. Per a quin tipus d’aplicacions és adequat l’ús d’UDP?
+
+11. Quines raons argumentaríeu per no fer servir UDP directament per a la transmissió de
+fitxers?
+
+12. Quin servei ofereix TCP (com a capa de la torre de comunicacions)?. Com s’anomenen
+les PDU de TCP?
+
+13. Expliqueu molt breument les 5 propietats del servei fiable de transmissió proporcionat per
+TCP:
+ Orientació a flux.
+ Connexió de circuit virtual.
+ Transferència amb buffer.
+ Flux no estructurat.
+ Connexió bidireccional (full duplex).
+
+14. La capçalera de TCP té un camp de longitud de capçalera que no trobem a la de UDP.
+Tenint en compte l’estructura de la capçalera, per què creieu que hi és en un protocol i no
+en l’altre?
+
+15. Què és l’MTU? Quina diferència hi ha entre l’MSS i l’MTU? Quina incongruència trobeu
+entre el nom de les PDU de transport i l’MSS?
+
+16. Expliqueu breument què és i per què cal la segmentació a TCP. Després de l’anunci mutu
+de l’MSS entre dos equips, a la pràctica, quin MSS (o MTU) usa cadascun dels equips si
+vol evitar la segmentació a les xarxes extrem?
+
+17. Té sentit considerar el MSS (o equivalent) en UDP? Per què?
+
+18. Llisteu els 2 mecanismes que s’usen a TCP per proporcionar la transferència fiable.
+
+19. Expliqueu breument el mecanisme de Confirmació positiva amb retransmissió (Positive
+Acknowledgment with Retransmission, PAR)
+
+20. Què és el control de flux i quin mecanisme de transferència fiable també proporciona
+control de flux a TCP?
+
+21. Expliqueu breument el mecanisme de Finestra lliscant.
+
+22. Què vol dir que TCP utilitza Piggybacking (transmissió encavallada)?
+
+23. Expliqueu breument com s’utilitzen els números de seqüència i ACK a TCP.
+
+24. A quina mida de dades fa referència la mida de la finestra a TCP? Per què cal també una
+finestra d’emissió? Quantes finestres calen en cada connexió TCP?
+
+25. Implica la pèrdua d’un ACK el re-enviament de dades en TCP? Si la vostra resposta no és
+un “sempre” o un “mai”, especifiqueu les circumstàncies.
+
+26. Per què hi ha una opció d’anunci del MSS si ja tenim un camp en les capçaleres de tots els
+segments TCP per a l’anunci de la mida de finestra? (quina diferència hi ha entre MSS i la
+mida de la finestra?)
+
+27. Per què creieu que els números de port estan al principi de les capçaleres UDP i TCP?
+
+28. Llisteu els flags (bits del camp “codi”) que pot portar qualsevol paquet TCP i expliqueu
+breument per a què s’usen.
+
+29. En quin tipus de segments TCP sol haver els camps d’opcions?
+
+30. Expliqueu breument el gràfic del mecanisme de three way handshake d’establiment de
+connexió, incloent-hi l’ús dels flags corresponents i dels camps “Número de seqüència” i
+“Número de confirmació (ACK)”.
+
+31. Com es trien els números de seqüència inicials a TCP? Per quin motiu? És el mateix
+número de seqüència als 2 sentits de la comunicació?
+
+32. Expliqueu breument què és una obertura activa i una obertura passiva. Quin tipus
+d’obertura sol fer un servidor, i quina un client?
+
+33. Quin sentit té establir una connexió a través d’una obertura activa als dos extrems? I té
+sentit l’obertura passiva als dos extrems?
+
+34. Expliqueu breument què és un tancament actiu i un tancament passiu.
+
+35. Expliqueu breument el mecanisme de tancament de connexió ordenada, incloent l’ús dels
+flags corresponents.
+
+36. Expliqueu breument què és una desconnexió abrupta i com es realitza.
+
+37. Per a quin tipus d’aplicacions és adequat l’ús de TCP?
+
+38. En quina capa de la torre de comunicacions TCP/IP es troba IP? Quin és el servei genèric,
+explicat a la sessió 1, que ofereix aquesta capa?
+
+39. Quin tipus de comunicació usa IP: circuit, circuit virtual, datagrama? Per tant, quina
+relació hi ha entre el camí seguit per un datagrama que va cap a una destinació i el
+datagrama anterior que va cap la mateixa destinació?
+
+40. A partir dels camps de la capçalera IP: quina és la longitud:
+ d’una capçalera IP sense opcions
+ màxima d’una capçalera IP
+ màxima d’un datagrama IP
+ màxima de les dades, suposant una capçalera de longituds mínima i màxima
+ màxima d’un segment TCP
+
+41. Coneix un equip emissor de trames les característiques de totes les xarxes per les quals
+passarà la trama? Quina relació té la mida màxima dels datagrames amb l’MTU?
+
+42. Per què cal un mecanisme de fragmentació de datagrames? Compareu breument la
+segmentació TCP amb la fragmentació IP.
+
+43. Expliqueu breument els 3 camps de la capçalera IP utilitzats per a la fragmentació.
+
+44. Què és el TTL i per a què i com s’utilitza?
+
+45. Per a què serveix el camp “Protocol” de la capçalera IP?
+
+46. Quina mida tenen les adreces IP? En el cas general, es modifiquen les adreces IP de
+destinació i d’origen d’un datagrama en canviar de xarxa?
+
+47. Per a què serveix el protocol ICMP? Sobre quin protocol viatja ICMP? A quin nivell de la
+torre de comunicacions es considera que es troba ICMP?
+
+48. Què és un “ping” i amb quins missatges ICMP s’implementa?
+
+49. Per a què / quan s’usa el missatge ICMP “Detecció de rutes llargues / circulars”.
+
+50. Llisteu i expliqueu breument per a què serveixen la resta dels principals tipus de missatges
+que proporciona el protocol ICMP.

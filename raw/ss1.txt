@@ -1,0 +1,116 @@
+
+1. Expliqueu molt breument els 7 serveis genèrics necessaris per a totes les aplicacions que
+necessiten comunicació (+1 "servei" de no comunicació).
+
+2. Expliqueu breument el concepte d’arquitectura de capes (torre de comunicacions, protocol
+stack) que s’usa per implementar aquestes tasques.
+
+3. Expliqueu molt breument els 3 aspectes que especifica i regula un protocol.
+
+4. En un model de capes o arquitectura de protocols, definiu i relacioneu els conceptes de
+protocol, interfície i servei. Incloeu a la relació qui proporciona serveis una capa N, quins
+serveis usa, amb qui es comunica per oferir el servei associat, i si hi ha relació directa
+entre capes no adjacents.
+
+5. En un model de capes o arquitectura de protocols, què s’entén per PDU? En quin lloc de
+la PDU es troba la informació que inclou una capa per comunicar-se amb la mateixa capa
+de l’equip remot? I la informació que prové de la capa superior per ser lliurada a la capa
+superior de l’equip remot?
+
+6. Adjunteu i expliqueu breument el diagrama que mostra el camí que segueix i les
+transformacions que pateix una PDU intercanviada entre una torre de comunicacions
+emissora i una receptora.
+
+7. Quins son i amb quina finalitat s’usen (què identifiquen) els 3 tipus d’adreces que calen
+per tal que una aplicació que es troba en un equip d’una xarxa es pugui comunicar amb
+una altra aplicació que es troba en un altre equip d’una altra xarxa?
+
+8. Expliqueu breument els avantatges i inconvenients d’usar estàndards.
+
+9. Què significa RFC? Què són les RFC?
+
+10. A continuació hi ha les sigles d’organitzacions internacionals d’estandardització: ANSI,
+ETSI, IEEE, IETF, ISO, ITU-T, ITU-R, W3C.
+Digueu a quines organitzacions pertanyen i què signifiquen aquestes sigles, quina és la
+seva pàgina web i descriviu breument (2-4 línies) a què es dediquen.
+
+11. Llisteu els 2 models de torre (o pila) de comunicació (protocol stack) estàndards i digueu
+quantes capes tenen.
+
+12. Quin nom reben i quin(s) dels 7 serveis genèrics proporciona/en cadascuna de les 7 capes
+del model OSI? Hi ha alguna capa que proporcioni més d’un dels 7 serveis genèrics de
+comunicació.
+
+13. Quin nom reben i quin(s) dels 7 serveis genèrics proporciona/en cadascuna de les capes
+del model TCP/IP? Quina capa proporciona més d’un dels 7 serveis genèrics?
+
+14. De forma genèrica, quina correspondència hi ha entre les capes del model TCP/IP i les del
+model OSI? Tenint en compte que hi ha capes equivalents, quins noms de capes s’utilitzen
+habitualment (independentment del model utilitzat)?
+
+15. Com anomenem les PDU de cadascuna de les capes del model TCP/IP? A quines capes
+del model TCP/IP s’usen els 3 diferents tipus d’adreces anomenats anteriorment?
+
+16. Llisteu protocols coneguts associats a les diferents capes del model TCP/IP.
+
+17. Quin dels 2 models de comunicació s’usa normalment? Per què creieu que és aquest
+model el que s’usa i no pas l’altre?
+
+18. Com a resum, digueu quines capes de la pila de protocols TCP/IP i del model OSI se
+n’ocupen dels següents aspectes de la gestió de comunicacions a través d’una xarxa:
+a. Dividir en trames el flux de bits a transmetre
+b. Interconnectar xarxes i determinar la ruta que s’utilitzarà a través de les subxarxes
+c. Transportar dades extrem a extrem (origen a destinació)
+d. Intercanviar operacions i dades entre programes específics extrem a extrem (origen a
+destinació)
+e. Proporcionar fiabilitat a les dades entre equips de la mateixa xarxa
+f. Proporcionar fiabilitat a les dades extrem a extrem
+g. Intercanviar dades entre equips de la mateixa xarxa
+h. Enviar i rebre bits directament al/del medi de transmissió
+i. Establiment i control de sessions (“diàlegs”) entre aplicacions finals
+j. Codificar les dades a transmetre entre aplicacions finals
+k. Segmentació de les dades d’usuari
+
+19. La meva línia de fibra òptica en teoria em permet rebre dades a 500000000 bps (500
+Mbps). Quan descarrego un fitxer al meu ordinador amb l’aplicació FTP (File Transfer
+Protocol) em surt una finestra amb la velocitat a la qual estic rebent dades i mai (ni a les 6
+del matí, quan tothom dorm) no aconsegueixo superar els 450 Mbps (56,25 Mbytes per
+segon). Sé positivament que el meu proveïdor de serveis d’Internet ISP és honest i
+realment la línia és de 500 Mbps. Quina explicació, relacionada amb les arquitectures de
+protocols i la comunicació que s’estableix al seu través, podeu donar a aquesta qüestió?
+
+20. Llisteu els dispositius d’interconnexió de xarxa existents, associant-los a la capa de la
+torre de comunicacions a la qual treballen (incloeu tant el nom en català/castellà com el
+nom en anglès).
+
+21. Expliqueu breument el funcionament dels repetidors (repeaters) i dels concentradors
+(hubs), incloent-hi les similituds i diferències.
+
+22. Expliqueu breument el funcionament dels ponts (bridges) i commutadors (switchs),
+incloent les similituds i diferències.
+
+23. Expliqueu breument per què són necessaris i la idea del funcionament dels “ponts
+transparents amb arbre d’expansió” / l’algorisme d’arbre d’expansió.
+
+24. Expliqueu breument la diferència principal entre “ponts traductors” i ponts.
+
+25. Expliqueu breument el funcionament dels encaminadors (routers).
+
+26. Expliqueu breument el funcionament de les passarel·les (gateways).
+
+27. Expliqueu molt breument la diferència principal entre repetidors i concentradors, i la
+diferència principal entre ponts i commutadors.
+
+28. Expliqueu molt breument la diferència principal entre concentradors i commutadors.
+
+29. Els concentradors (i repetidors), commutadors (i ponts) i encaminadors, prenen algun
+tipus de decisió per distribuir les dades entre els diferents medis de transmissió que tenen
+connectats? Per als dispositius que hàgiu contestat que sí, quines PDU i quin camp de la
+seva capçalera analitzen per prendre les decisions?
+
+30. Quines dades analitza una passarel·la de nivell d’aplicació? Poseu-ne algun exemple.
+
+31. Incloeu i expliqueu les figures-resum on es veu l’estructura de capes dels diferents
+dispositius d’interconnexió de xarxes, incloent-hi què hi sol haver connectat als seus ports
+(entrades/sortides).
+

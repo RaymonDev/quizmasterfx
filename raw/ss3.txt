@@ -1,0 +1,109 @@
+
+1. Expliqueu breument el modes de comunicació / difusió existents.
+
+2. Expliqueu breument el tipus de connexions existents.
+
+3. Expliqueu breument la problemàtica de les xarxes totalment connectades.
+
+4. Com es soluciona el problema de la Transmissió de dades entre molts equips o a llarga
+distància, on la comunicació punt a punt entre tots els equips no és viable? Expliqueu
+breument el funcionament d'aquest mecanisme usat per evitar la problemàtica de les
+xarxes totalment connectades.
+
+5. Expliqueu les característiques tenen les xarxes commutades:
+a. De quins 2 elements estan formades les xarxes de comunicació?
+b. Amb quina topologia (forma) es connecten aquests elements entre ells?
+c. Per què s’anomenen “commutades” les xarxes de comunicacions?
+d. Quin és l’objectiu de la commutació / dels commutadors?
+e. Llisteu els tipus de commutació més utilitzats. (En aquesta pregunta no cal explicarlos)
+
+6. Expliqueu breument les característiques de la topologia en línia (o connexió punt a punt).
+
+7. Expliqueu breument les característiques de la topologia en bus.
+
+8. Expliqueu breument les característiques de la topologia en arbre.
+
+9. Expliqueu breument les característiques de la topologia en anell.
+
+10. Expliqueu breument les característiques de la topologia en estrella. Expliqueu breument
+les diferents opcions de funcionament (lògiques) de les topologies ‘físiques’ en estrella.
+
+11. Expliqueu breument les característiques de la topologia en malla.
+
+12. Expliqueu breument què és la Frontera [/ vora] de la xarxa (network edge).
+
+13. Expliqueu brument què són les xarxes d’accés (access network).
+
+14. Expliqueu breument què és el nucli de la xarxa (network core).
+
+15. Expliqueu breument què és una xarxa troncal (backbone network).
+
+16. Llisteu i expliqueu breument les característiques físiques principals dels diferents tipus de
+cables.
+
+17. Llisteu les categories que es defineixen per als cables de parells trenats, i digueu el tipus
+de cable que normalment s’utilitza i la velocitat de xarxa màxima que suporten les 4 (/5)
+categories més utilitzades actualment.
+
+18. Expliqueu molt breument el principi físic en el qual es basa el funcionament de la fibra
+òptica, i les diferències entre els 2 tipus principals de fibra segons la seva construcció.
+
+19. Expliqueu molt breument els 2 tipus de fibra òptica segons la quantitat de nodes de llum
+que poden portar, relacionant-los amb els tipus en funció de la seva construcció, i incloent
+el seu abast i utilització.
+
+20. Expliqueu breument en quines topologies s’usen els 3 famílies principals de cables.
+
+21. Expliqueu els 2 tipus de funcionament de les xarxes sense fils.
+
+22. Expliqueu breument 3 tipus de xarxes ad-hoc sense fils.
+
+23. Expliqueu breument les característiques de les xarxes WAN.
+
+24. Expliqueu breument les característiques de les xarxes MAN.
+
+25. Expliqueu breument les característiques de les xarxes LAN.
+
+26. Expliqueu breument les característiques de les xarxes PAN.
+
+27. Expliqueu breument les característiques de les xarxes VPN i els seus 3 usos habituals.
+
+28. Què s’entén per circuit? I per canal?
+
+29. Expliqueu breument la commutació de circuits.
+
+30. Quina relació hi ha entre les tecnologies de xarxes i els cementiris?
+
+31. Expliqueu breument què són la commutació de circuits manual, l’automàtica/
+electromecànica, l’electrònica i la digital.
+
+32. Què és la commutació de missatges?
+
+33. Expliqueu breument la filosofia d’emmagatzematge i reenviament (store-and-forward)
+per a l’enviament d’informació.
+
+34. Quins inconvenients té la commutació de missatges?
+
+35. Què és la commutació de paquets?
+
+36. Quins avantatges i inconvenient té la commutació de paquets?
+
+37. Expliqueu breument la commutació (encaminament) de paquets per datagrames.
+
+38. Expliqueu breument la commutació (encaminament) de paquets per circuits virtuals.
+
+39. Compareu breument els mètodes de commutació (encaminament) de paquets per
+datagrames i per circuits virtuals.
+
+40. Incloeu i expliqueu la figura que compara els mètodes d’encaminament de circuits i de
+paquets mode circuit virtual i mode datagrama.
+
+41. Feu una breu comparativa dels valors dels retards entre la Commutació de circuits i la de
+paquets (distingint mode datagrama o circuit virtual quan calgui).
+
+42. Expliqueu molt breument les característiques del Mode de transferència asíncrona
+(Asynchronous Transfer Mode, ATM).
+
+43. Què és la multiplexació?
+
+44. Expliqueu breument els 2 tipus de multiplexació presentats a teoria.

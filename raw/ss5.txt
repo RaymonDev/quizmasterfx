@@ -1,0 +1,68 @@
+
+1. Quina és la capa de la torre de comunicacions que ens permet connectar xarxes i que
+necessita de mecanismes d’adreçament global per poder enviar informació fins a
+qualsevol equip de qualsevol xarxa?
+
+2. Quin tipus de dada són les adreces IP? Llisteu i poseu un exemples de cadascuna de les
+diferents maneres de representar-les hi que hi ha.
+
+3. Expliqueu breument el format de les adreces IP i els conceptes de NetID i de HostID en
+aquestes adreces. Per què les adreces IP s’assignen a les interfícies en comptes de als hosts
+/ routers?
+
+4. Una organització gran vol una xarxa amb adreces globals a Internet. Qui assigna les
+adreces? Què se li assignarà a aquesta organització, i què podrà assignar ella?
+
+5. Quins avantatges i inconvenients té el fet d’usar adreces IP per comptes p.e. d’usar noms?
+
+6. Expliqueu breument l’esquema d’adreçament classful, i quants bits tenen associats de
+NetId i HostId, i com es poden distingir els tipus de classes A, B, C i D.
+
+7. Expliqueu breument les adreces de difusió i identificació que es defineixen (quan els
+identificadors de xarxa i de host són tot 0’s i/o tot 1’s).
+
+8. Expliqueu breument quines són i per què s’usen les adreces especials privades o no
+encaminables, les localhost i les zeroconf.
+
+9. Expliqueu breument per a què es fan servir les màscares, quin és el seu format típic i quin
+és el seu funcionament.
+
+10. Expliqueu breument l’esquema classless (Classless Inter-Domain Routing, CIDR). Per
+què ha calgut usar CIDR? Quina relació tenen les adreces CIDR amb les màscares? Què
+és la notació CIDR (o de barra)?
+
+11. Expliqueu breument per a què s’utilitzen les subxarxes, qui les pot crear i com.
+
+12. Si es té l'adreça d'un equip i els bits (o la màscara) de la (sub)xarxa, com es calcula
+l'adreça de la (sub)xarxa i com es calcula l'identificador de l'equip dins la (sub)xarxa?
+Poseu-ne un exemple.
+
+13. Quan tenim n bits de HostID, tant en esquemes classful com classless, es poden usar totes
+les combinacions possibles de bits per identificar equips dins la xarxa? Quans equips
+podrem identificar amb n bits?
+
+14. En esquemes d’adreçament classful, quan tenim una subxarxa amb m bits de Net’ID (no
+NetID), es poden fer servir totes les combinacions possibles de bits per identificar les
+subxarxes? Quantes subxarxes podrem identificar amb m bits? I en esquemes classless
+(CIDR)?
+
+15. Expliqueu breument què són les superxarxes i com es creen.
+
+16. Expliqueu breument les diferències entre les adreces IPv6 i les IPv4 pel que fa al número
+de bits, la seva representació i les seves parts.
+
+17. Quina diferència hi ha entre encaminament (routing) i reencaminament (forwarding)?
+
+18. Expliqueu les diferències pràctiques entre encaminament directe i indirecte. Quines són
+les adreces físiques i de xarxa, tant d’origen com de destinació, en un encaminament
+directe? I en un encaminament indirecte?
+
+19. Si tinguéssiu només encaminament indirecte, podríeu tenir interconnexió de xarxes?
+
+20. Quina informació tindrà una taula d’encaminament per poder encaminar? Quin
+coneixement ha de tenir un equip o un router de la resta de la xarxa per poder encaminar?
+
+21. Per què importa l’ordre en què afegim entrades a la taula d’encaminament? Quin ordre
+han de seguir? Quines entrades especials pot tenir una taula d’encaminament?
+
+22. Expliqueu breument què passa quan 1 datagrama arriba a un equip (host o router).

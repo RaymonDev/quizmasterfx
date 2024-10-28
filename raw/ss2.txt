@@ -1,0 +1,82 @@
+
+1. Llisteu la capa del model TCP/IP implicada directament en l’arquitectura client/servidor i
+recordeu molt breument la seva funcionalitat (els serveis que ofereix).
+
+2. Expliqueu breument la creació d’aplicacions distribuïdes (= model client/servidor) a partir
+del model d’aplicació local.
+
+3. Expliqueu breument els conceptes de servidor i client en les aplicacions distribuïdes, i el
+mode habitual de funcionament d’ambdós.
+
+4. Expliqueu breument els 3 nivells del paradigma client/servidor, quin(s) sol(en) estar en el
+client i quin(s) en el servidor. Quines altres divisions entre client i servidor són possibles?
+
+5. Expliqueu breument les arquitectures a 3 nivells (Three-tiered), Distribució horitzontal
+(Horizontal distribution) i distribució d’igual a igual (Peer-to-peer distribution).
+
+6. Expliqueu breument què és el Programari intermedi (Middleware) i inclogueu una imatge
+de en quin(s) lloc(s) de la torre de comunicacions es podria trobar.
+
+7. Expliqueu molt breument els següents models per implementar aplicacions distribuïdes:
+· Crides a procediments remots (Remote Procedure Calls, RPC).
+· Invocació de mètodes remots (Remote Method Invocation, RMI).
+· Comunicació per paquets/datagrames
+· Comunicació per fluxos (streams).
+· Comunicació per missatges (Message Oriented Communitacion, MOM).
+· Serveis Web (Web Services).
+· Codi Mòbil.
+· Agents Mòbils.
+
+8. Llisteu les capes del model TCP/IP implicades directament en els sockets i expliqueu molt
+breument la funcionalitat (el servei que ofereixen) d’aquestes.
+
+9. Expliqueu breument què es coneix com a socket.
+
+10. Expliqueu molt breument les característiques principals dels protocols de transport TCP i
+UDP (que ja veurem amb una mica més de detall al tema I.4).
+
+11. Expliqueu què vol dir que les crides a sockets són bloquejants (blocking).
+
+12. Llisteu les primitives bàsiques (crides a sistema / system calls) dels sockets i expliqueu (1-
+2 línies) per a què serveixen.
+
+13. Llisteu les funcions de llibreria bàsiques dels sockets i expliqueu (1-2 línies) per a què
+serveixen.
+
+14. Justifiqueu per què calen a sockets les funcions de llibreria relacionades amb ports i
+adreces.
+
+15. Llisteu funcions de llibreria dels sockets relacionades amb ports i adreces i expliqueu (1-2
+línies) per a què serveixen.
+
+16. Expliqueu breument la diferència entre un servidor iteratiu i un de concurrent.
+
+17. Expliqueu breument la idea de fiabilitat (i no fiabilitat) en el transport de dades, i la
+relació amb els protocols de transport existents, i amb el concepte de protocol orientat a
+connexió (connectionful) i no orientat a connexió (connectionless).
+
+18. Expliqueu breument la diferència entre un servidor amb estats (stateful) i un sense estats
+(stateless).
+
+19. Expliqueu breument el funcionament (algorisme) dels servidors iteratius sense connexió
+(Connectionless iterative server).
+
+20. Expliqueu breument el funcionament (algorisme) dels servidors iteratius amb connexió
+(Connectionful iterative server).
+
+21. Expliqueu breument els 2 tipus de clients existents.
+
+22. Per què no tindrien sentit els clients concurrents?
+
+23. Expliqueu breument el funcionament (algorisme) dels clients iteratius sense connexió
+(Connectionless iterative client).
+
+24. Expliqueu breument el funcionament (algorisme) dels clients iteratius amb connexió
+(Connectionful iterative client).
+
+25. Expliqueu breument el funcionament (algorisme) dels servidors concurrents amb
+connexió (Connectionful concurrent server).
+
+26. Expliqueu breument el funcionament (idees bàsiques, no l’algorisme) dels servidors
+concurrents amb connexió amb un sol procés (Connectionful concurrent server with one
+process).
